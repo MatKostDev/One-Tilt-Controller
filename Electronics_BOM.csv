@@ -1,0 +1,7 @@
+﻿Name,Quantity,Component,Use,Supplier
+U1,1, Arduino Micro,Microcontroller for functionality,https://www.robotshop.com/ca/en/arduino-micro-usb-microcontroller.html?gclid=EAIaIQobChMIqaf7g5zR9gIV2GxvBB0e9QDuEAYYAiABEgL3fvD_BwE
+"S1, S2, S3, S4, S5, S6, S8, S9, S10",9, Pushbutton,"X, Y, A, B, LS press, Start, Select, RB, and LB buttons",https://www.aliexpress.com/item/32826994795.html
+"R3, R4, R5, R2, R7, R8, R9, R10, R11",9,10 kΩ Resistor,Resistors for buttons,https://www.amazon.ca/Projects-100EP51210K0-10k-Resistors-Pack/dp/B0185FIOTA
+"Trig1, Trig2",2,Gamepad Analog Triggers,Analog trigger presses,https://www.aliexpress.com/item/4001186727788.html?spm=a2g0o.search0302.0.0.62c15ab1cjtIcQ&algo_pvid=1595d1ed-10fc-4963-9bf9-34b87d2f3207&aem_p4p_detail=202203182023072199250530891260012474864&algo_exp_id=1595d1ed-10fc-4963-9bf9-34b87d2f3207-1
+Jstick1,1,Joystick,Gamepad joystick for directional analog input,https://www.aliexpress.com/item/4001186727788.html?spm=a2g0o.search0302.0.0.62c15ab1cjtIcQ&algo_pvid=1595d1ed-10fc-4963-9bf9-34b87d2f3207&aem_p4p_detail=202203182023072199250530891260012474864&algo_exp_id=1595d1ed-10fc-4963-9bf9-34b87d2f3207-1
+Acc1,1,Accelerometer,For sensing orientation for directional analog input,https://www.amazon.ca/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N/ref=sr_1_4?keywords=accelerometer&qid=1647659574&s=industrial&sprefix=acceler%2Cindustrial%2C78&sr=1-4
