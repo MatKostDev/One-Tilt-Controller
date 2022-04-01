@@ -290,14 +290,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670305428}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d147beb3fb9711847aefc28928068c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hAxisName: gpRSh
   vAxisName: gpRSv
-  maxAxisRotation: 50
+  maxAxisRotation: 20
 --- !u!1 &918650248
 GameObject:
   m_ObjectHideFlags: 0
