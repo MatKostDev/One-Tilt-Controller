@@ -20,17 +20,17 @@ public class RotationController : MonoBehaviour
 		{
 			float multiplier = hAxis > 0f ? -1f : 1f;
 
-			Vector3 newEulers = transform.eulerAngles;
+			Vector3 newEulers = transform.localEulerAngles;
 			newEulers.y = Mathf.Lerp(0f, maxAxisRotation * multiplier, 1f * Mathf.Abs(hAxis));
 
-			transform.rotation = Quaternion.Euler(newEulers);
+			transform.localRotation = Quaternion.Euler(newEulers);
 		} 
 		else
 		{
-			Vector3 newEulers = transform.eulerAngles;
+			Vector3 newEulers = transform.localEulerAngles;
 			newEulers.y = 0f;
 
-			transform.rotation = Quaternion.Euler(newEulers);
+			transform.localRotation = Quaternion.Euler(newEulers);
 		}
 
 		float vAxis = Input.GetAxis(vAxisName);
@@ -38,17 +38,17 @@ public class RotationController : MonoBehaviour
 		{
 			float multiplier = vAxis > 0f ? 1f : -1f;
 
-			Vector3 newEulers = transform.eulerAngles;
+			Vector3 newEulers = transform.localEulerAngles;
 			newEulers.x = Mathf.Lerp(0f, maxAxisRotation * multiplier, 1f * Mathf.Abs(vAxis));
 
-			transform.rotation = Quaternion.Euler(newEulers);
+			transform.localRotation = Quaternion.Euler(newEulers);
 		}
 		else
 		{
-			Vector3 newEulers = transform.eulerAngles;
+			Vector3 newEulers = transform.localEulerAngles;
 			newEulers.x = 0f;
 
-			transform.rotation = Quaternion.Euler(newEulers);
+			transform.localRotation = Quaternion.Euler(newEulers);
 		}
 	}
 }
