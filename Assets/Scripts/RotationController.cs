@@ -16,13 +16,12 @@ public class RotationController : MonoBehaviour
 	private void Update()
 	{
 		float hAxis = Input.GetAxis(hAxisName);
-		Debug.Log(hAxis);
 		if (Mathf.Abs(hAxis) > 0.1f)
 		{
 			float multiplier = hAxis > 0f ? -1f : 1f;
 
 			Vector3 newEulers = transform.eulerAngles;
-			newEulers.y = Mathf.Lerp(0f, maxAxisRotation * multiplier, 1f / Mathf.Abs(hAxis));
+			newEulers.y = Mathf.Lerp(0f, maxAxisRotation * multiplier, 1f * Mathf.Abs(hAxis));
 
 			transform.rotation = Quaternion.Euler(newEulers);
 		} 
@@ -35,13 +34,12 @@ public class RotationController : MonoBehaviour
 		}
 
 		float vAxis = Input.GetAxis(vAxisName);
-		Debug.Log(vAxis);
 		if (Mathf.Abs(vAxis) > 0.1f)
 		{
 			float multiplier = vAxis > 0f ? 1f : -1f;
 
 			Vector3 newEulers = transform.eulerAngles;
-			newEulers.x = Mathf.Lerp(0f, maxAxisRotation * multiplier, 1f / Mathf.Abs(vAxis));
+			newEulers.x = Mathf.Lerp(0f, maxAxisRotation * multiplier, 1f * Mathf.Abs(vAxis));
 
 			transform.rotation = Quaternion.Euler(newEulers);
 		}
@@ -52,6 +50,5 @@ public class RotationController : MonoBehaviour
 
 			transform.rotation = Quaternion.Euler(newEulers);
 		}
-		Debug.Log("--------");
 	}
 }
