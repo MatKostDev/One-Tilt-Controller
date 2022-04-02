@@ -1,0 +1,3 @@
+Kristian Menes is responsible for creating and iterating on the 3D models of the controller.
+
+Mathew Kostrzewa is responsible for developing the functionality and various prototypes of the controller.
