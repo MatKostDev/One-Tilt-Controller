@@ -1209,6 +1209,7 @@ GameObject:
   - component: {fileID: 3444087621437262775}
   - component: {fileID: 397358562436404139}
   - component: {fileID: 397358562436404138}
+  - component: {fileID: 397358562436404140}
   m_Layer: 0
   m_Name: Right_Bumper_2_(3)
   m_TagString: Untagged
@@ -1231,6 +1232,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpRB
   inputAxisName: 
+  trigger: 0
 --- !u!65 &397358562436404139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1244,6 +1246,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17, y: 2, z: 8.83}
   m_Center: {x: 29.999996, y: 47, z: 50}
+--- !u!95 &397358562436404140
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397358562436404137}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7b8a51f503286394e890fb3e38a9625e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &413226217399610361
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1509,6 +1530,7 @@ GameObject:
   - component: {fileID: 7092884390173679833}
   - component: {fileID: 623391090528310411}
   - component: {fileID: 623391090528310410}
+  - component: {fileID: 623391090528310412}
   m_Layer: 0
   m_Name: Share_Button_2_(1)
   m_TagString: Untagged
@@ -1531,6 +1553,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpLSB
   inputAxisName: 
+  trigger: 0
 --- !u!135 &623391090528310411
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1544,6 +1567,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4
   m_Center: {x: 52.53766, y: 37.025276, z: 58.91}
+--- !u!95 &623391090528310412
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623391090528310409}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &691969135271272550
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1846,6 +1888,7 @@ GameObject:
   - component: {fileID: 5001675113999932459}
   - component: {fileID: 1008055672263697969}
   - component: {fileID: 1008055672263697968}
+  - component: {fileID: 1008055672263697970}
   m_Layer: 0
   m_Name: Start_Button_2_(1)
   m_TagString: Untagged
@@ -1868,6 +1911,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpBack
   inputAxisName: 
+  trigger: 0
 --- !u!135 &1008055672263697969
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1881,6 +1925,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4
   m_Center: {x: 83.53766, y: 17.025276, z: 59.07}
+--- !u!95 &1008055672263697970
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008055672263697967}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1029642163375341497
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2119,6 +2182,7 @@ GameObject:
   - component: {fileID: 6468434531693667530}
   - component: {fileID: 1232065753958033521}
   - component: {fileID: 1232065753958033520}
+  - component: {fileID: 1232065753958033522}
   m_Layer: 0
   m_Name: Left_Bumper_2_(3)
   m_TagString: Untagged
@@ -2141,6 +2205,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpLB
   inputAxisName: 
+  trigger: 0
 --- !u!65 &1232065753958033521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2154,6 +2219,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16.77, y: 8.6, z: 2}
   m_Center: {x: 61, y: 38, z: 29.500002}
+--- !u!95 &1232065753958033522
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232065753958033519}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 293de905fc98f504dbc92ae99212d9dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1295126153490279376
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2257,6 +2341,7 @@ GameObject:
   - component: {fileID: 384436267683544837}
   - component: {fileID: 1407209260886213408}
   - component: {fileID: 1407209260886213407}
+  - component: {fileID: 1407209260886213409}
   m_Layer: 0
   m_Name: Select_Button_2_(1)
   m_TagString: Untagged
@@ -2279,6 +2364,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpStart
   inputAxisName: 
+  trigger: 0
 --- !u!135 &1407209260886213408
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2292,6 +2378,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3.8
   m_Center: {x: 52.53766, y: 17.025276, z: 59.1}
+--- !u!95 &1407209260886213409
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407209260886213406}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1428542069303840822
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4378,6 +4483,7 @@ GameObject:
   - component: {fileID: 6488200159435429741}
   - component: {fileID: 4786141563980906644}
   - component: {fileID: 4786141563980906643}
+  - component: {fileID: 4786141563980906645}
   m_Layer: 0
   m_Name: B_Button_2_(1)
   m_TagString: Untagged
@@ -4400,6 +4506,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpB
   inputAxisName: 
+  trigger: 0
 --- !u!135 &4786141563980906644
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4413,6 +4520,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 6.88
   m_Center: {x: 20.5, y: 27, z: 59.23}
+--- !u!95 &4786141563980906645
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786141563980906642}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!33 &4813846222086865126
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4714,6 +4840,7 @@ GameObject:
   - component: {fileID: 9177405649411806995}
   - component: {fileID: 5066183613403402542}
   - component: {fileID: 5066183613403402541}
+  - component: {fileID: 5066183613403402543}
   m_Layer: 0
   m_Name: Left_Trigger_2_(2)
   m_TagString: Untagged
@@ -4736,6 +4863,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: 
   inputAxisName: gpLT
+  trigger: 1
 --- !u!65 &5066183613403402542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4749,6 +4877,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17.61, y: 12.3, z: 2}
   m_Center: {x: 60.813705, y: 26.5, z: 29.81371}
+--- !u!95 &5066183613403402543
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066183613403402540}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 293de905fc98f504dbc92ae99212d9dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &5096979770382496181
 Transform:
   m_ObjectHideFlags: 0
@@ -4893,6 +5040,7 @@ GameObject:
   - component: {fileID: 752095746092079895}
   - component: {fileID: 5274614057756396825}
   - component: {fileID: 5274614057756396824}
+  - component: {fileID: 5274614057756396826}
   m_Layer: 0
   m_Name: Y_Button_2_(1)
   m_TagString: Untagged
@@ -4915,6 +5063,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpY
   inputAxisName: 
+  trigger: 0
 --- !u!135 &5274614057756396825
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4928,6 +5077,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 6.88
   m_Center: {x: 30.48766, y: 36.9, z: 59.23}
+--- !u!95 &5274614057756396826
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5274614057756396823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &5287516479338876635
 Transform:
   m_ObjectHideFlags: 0
@@ -6024,6 +6192,7 @@ GameObject:
   - component: {fileID: 4900276068845085207}
   - component: {fileID: 6857374066282436923}
   - component: {fileID: 6857374066282436924}
+  - component: {fileID: 6857374066282436925}
   m_Layer: 0
   m_Name: Body1:12
   m_TagString: Untagged
@@ -6059,6 +6228,26 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpRSB
   inputAxisName: 
+  trigger: 0
+--- !u!95 &6857374066282436925
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6857374066282436922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2330a4b00ab900e49b545e6b359ba993, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &6882065560039388694
 Transform:
   m_ObjectHideFlags: 0
@@ -6962,6 +7151,7 @@ GameObject:
   - component: {fileID: 1228613249485169949}
   - component: {fileID: 8656549151712595600}
   - component: {fileID: 8656549151712595599}
+  - component: {fileID: 8656549151712595601}
   m_Layer: 0
   m_Name: X_Button_2_(1)
   m_TagString: Untagged
@@ -6984,6 +7174,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpX
   inputAxisName: 
+  trigger: 0
 --- !u!135 &8656549151712595600
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6997,6 +7188,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 6.88
   m_Center: {x: 40.5, y: 26.9, z: 59.23}
+--- !u!95 &8656549151712595601
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656549151712595598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &8675289959301951306
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7051,6 +7261,7 @@ GameObject:
   - component: {fileID: 4758691892399375500}
   - component: {fileID: 8729765089393950458}
   - component: {fileID: 8729765089393950457}
+  - component: {fileID: 8729765089393950459}
   m_Layer: 0
   m_Name: A_Button_2_(1)
   m_TagString: Untagged
@@ -7073,6 +7284,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: gpA
   inputAxisName: 
+  trigger: 0
 --- !u!135 &8729765089393950458
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7086,6 +7298,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 6.88
   m_Center: {x: 30.48766, y: 17.025276, z: 59.23}
+--- !u!95 &8729765089393950459
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729765089393950456}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f23b5aa4c6cca47a95585ea4d6d179, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8737834681587204274
 GameObject:
   m_ObjectHideFlags: 0
@@ -7220,6 +7451,7 @@ GameObject:
   - component: {fileID: 4998129253033489228}
   - component: {fileID: 8974408484944714673}
   - component: {fileID: 8974408484944714672}
+  - component: {fileID: 8974408484944714674}
   m_Layer: 0
   m_Name: Right_Trigger_2_(2)
   m_TagString: Untagged
@@ -7242,6 +7474,7 @@ MonoBehaviour:
   selectedMaterial: {fileID: 2100000, guid: cf7126d9f77f3154fbe2d06cfe2a5453, type: 2}
   inputButtonName: 
   inputAxisName: gpRT
+  trigger: 1
 --- !u!65 &8974408484944714673
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7255,6 +7488,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16.92, y: 2, z: 12}
   m_Center: {x: 29.999996, y: 47, z: 38.5}
+--- !u!95 &8974408484944714674
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974408484944714671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7b8a51f503286394e890fb3e38a9625e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &9015957740951539077
 Transform:
   m_ObjectHideFlags: 0
